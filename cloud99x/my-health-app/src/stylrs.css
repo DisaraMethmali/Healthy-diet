@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-btn.active {
+    background-color: #ffffff!important;
+}
+
+.sidebar-logo-container {
+    padding: 10px;
+    text-align: center;
+    font-size: '0.003px';
+}
+
+
+/* Styles for HorizontalCalendar */
+
+.horizontal-calendar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    padding: 20px;
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.calendar-month {
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    /* Center align items vertically */
+}
+
+.calendar-dates {
+    display: flex;
+    gap: 10px;
+    font-weight: 700;
+}
+
+.calendar-date {
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.calendar-date.today {
+    background-color: orange;
+    color: white;
+}
+
+.arrow {
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 16px;
+    box-shadow: none;
+    /* Remove any shadow */
+    outline: none;
+    color: #888C96;
+    /* Remove focus outline */
+}
+
+.next-month {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 10px;
+    /* Optional: Add some margin to separate it from the rest of the content */
+}

@@ -1,0 +1,69 @@
+.horizontal-calendar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calendar-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calendar-months {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* Position months on opposite sides */
+}
+
+.calendar-month {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #121A2D;
+}
+
+.left-month {
+    text-align: left;
+    margin-left: -20px;
+    /* Adjust space from the left edge */
+}
+
+.right-month {
+    text-align: right;
+    margin-right: -380px;
+    color: #888C96;
+    /* Adjust space from the right edge */
+}
+
+.calendar-dates {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 340px;
+    /* Space between month names and dates */
+}
+
+.arrow {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 0px;
+    /* Space between arrows and dates */
+}
+
+
+/* Optional: styles for date elements */
+
+.calendar-date {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 27px;
+    margin: 0 0px;
+    /* Adjust space between dates */
+}
